@@ -486,9 +486,9 @@ h6 {
     border-radius: 3px; }
     .demo-browser-action > .btn:before {
       color: white;
-      content: "\e004";
+      content: '\e004';
       font-size: 16px;
-      font-family: "Flat-UI-Icons-16";
+      font-family: 'Flat-UI-Icons-16';
       font-weight: 300;
       margin-right: 12px;
       position: relative;
