@@ -1920,12 +1920,12 @@ body.vjs-full-window {
   top: 0;
   bottom: 0;
   right: 0;
-  width: 100% !important;
-  height: 100% !important;
+  width: 100%!important;
+  height: 100%!important;
   _position: absolute; }
 .video-js:-webkit-full-screen {
-  width: 100% !important;
-  height: 100% !important; }
+  width: 100%!important;
+  height: 100%!important; }
 
 .vjs-poster {
   margin: 0 auto;
@@ -1944,23 +1944,23 @@ body.vjs-full-window {
   font-family: "Lato", sans-serif; }
 .video-js .vjs-text-track {
   display: none;
-  color: white;
+  color: #fff;
   font-size: 1.4em;
   text-align: center;
-  margin-bottom: 0.1em;
-  background: black;
+  margin-bottom: .1em;
+  background: #000;
   background: rgba(0, 0, 0, 0.5); }
 .video-js .vjs-subtitles {
-  color: white; }
+  color: #fff; }
 .video-js .vjs-captions {
-  color: #ffcc66; }
+  color: #fc6; }
 
 .vjs-tt-cue {
   display: block; }
 
 .vjs-fade-in {
-  visibility: visible !important;
-  opacity: 1 !important;
+  visibility: visible!important;
+  opacity: 1!important;
   -webkit-transition: visibility 0s linear 0s, opacity 0.3s linear;
   -moz-transition: visibility 0s linear 0s, opacity 0.3s linear;
   -o-transition: visibility 0s linear 0s, opacity 0.3s linear;
@@ -1968,8 +1968,8 @@ body.vjs-full-window {
   -webkit-backface-visibility: hidden; }
 
 .vjs-fade-out {
-  visibility: hidden !important;
-  opacity: 0 !important;
+  visibility: hidden!important;
+  opacity: 0!important;
   -webkit-transition: visibility 0s linear 1.5s, opacity 1.5s linear;
   -moz-transition: visibility 0s linear 1.5s, opacity 1.5s linear;
   -o-transition: visibility 0s linear 1.5s, opacity 1.5s linear;
@@ -1988,8 +1988,8 @@ body.vjs-full-window {
   color: white;
   background: #2c3e50; }
   .vjs-controls.vjs-fade-out {
-    visibility: visible !important;
-    opacity: 1 !important; }
+    visibility: visible!important;
+    opacity: 1!important; }
 
 .vjs-control {
   background-position: center center;
@@ -2104,7 +2104,7 @@ body.vjs-full-window {
 
 .vjs-progress-holder {
   position: relative;
-  cursor: pointer !important;
+  cursor: pointer!important;
   padding: 0;
   margin: 0;
   height: 12px; }
@@ -2185,7 +2185,7 @@ body.vjs-full-window {
   background-image: url("../images/video/fullscreen.png");
   background-position: center -47px;
   background-size: 15px 64px;
-  cursor: pointer !important;
+  cursor: pointer!important;
   position: absolute;
   right: 17px;
   top: 13px; }
