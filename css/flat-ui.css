@@ -2357,7 +2357,7 @@ body.vjs-full-window {
     font-size: 17px;
     font-weight: 200;
     line-height: 34px;
-    opacity: 0.95; }
+    opacity: .95; }
     .login-icon > h4 small {
       color: inherit;
       display: block;
@@ -2370,7 +2370,7 @@ body.vjs-full-window {
   padding: 24px 23px 20px;
   position: relative; }
   .login-form:before {
-    content: "";
+    content: '';
     border-style: solid;
     border-width: 12px 12px 12px 0;
     border-color: transparent #eceff1 transparent transparent;
