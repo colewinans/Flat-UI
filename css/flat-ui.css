@@ -1,6 +1,6 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 @font-face {
-  font-family: "Flat-UI-Icons-16";
+  font-family: 'Flat-UI-Icons-16';
   src: url("../fonts/Flat-UI-Icons-16.eot");
   src: url("../fonts/Flat-UI-Icons-16.eot?#iefix") format("embedded-opentype"), url("../fonts/Flat-UI-Icons-16.woff") format("woff"), url("../fonts/Flat-UI-Icons-16.ttf") format("truetype"), url("../fonts/Flat-UI-Icons-16.svg#Flat-UI-Icons-16") format("svg");
   font-weight: normal;
@@ -8,19 +8,20 @@
 
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
-  font-family: "Flat-UI-Icons-16";
+  font-family: 'Flat-UI-Icons-16';
   content: attr(data-icon);
   speak: none;
   font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-/* Use the following CSS code if you want to have a class per icon */
-/*Instead of a list of all class selectors,
- *you can use the generic selector below, but it's slower:
- *[class*="fui-"]:before { */
+/* Use the following CSS code if you want to have a class per icon
+ * Instead of a list of all class selectors,
+ * you can use the generic selector below, but it's slower:
+ * [class*="fui-"]:before {
+ */
 .fui-volume-16:before, .fui-video-16:before, .fui-time-16:before, .fui-settings-16:before, .fui-plus-16:before, .fui-new-16:before, .fui-menu-16:before, .fui-man-16:before, .fui-mail-16:before, .fui-lock-16:before, .fui-location-16:before, .fui-heart-16:before, .fui-eye-16:before, .fui-cross-16:before, .fui-cmd-16:before, .fui-checkround-16:before, .fui-checkmark-16:before, .fui-camera-16:before, .fui-calendar-16:before, .fui-bubble-16:before {
-  font-family: "Flat-UI-Icons-16";
+  font-family: 'Flat-UI-Icons-16';
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -104,9 +105,9 @@
   -webkit-font-smoothing: antialiased; }
 
 /* Use the following CSS code if you want to have a class per icon
- *Instead of a list of all class selectors,
- *you can use the generic selector below, but it's slower:
- *[class*="fui-"]:before {
+ * Instead of a list of all class selectors,
+ * you can use the generic selector below, but it's slower:
+ * [class*="fui-"]:before {
  */
 .fui-video-24:before, .fui-time-24:before, .fui-settings-24:before, .fui-plus-24:before, .fui-new-24:before, .fui-menu-24:before, .fui-man-24:before, .fui-mail-24:before, .fui-lock-24:before, .fui-location-24:before, .fui-heart-24:before, .fui-eye-24:before, .fui-cross-24:before, .fui-cmd-24:before, .fui-checkround-24:before, .fui-checkmark-24:before, .fui-calendar-24:before, .fui-bubble-24:before, .fui-volume-24:before, .fui-camera-24:before {
   font-family: 'Flat-UI-Icons-24';
@@ -526,7 +527,7 @@ h6 {
     top: 80%;
     background-color: white\9; }
     .navbar .nav > li > ul:before {
-      content: "";
+      content: '';
       border-style: solid;
       border-width: 0 9px 9px 9px;
       border-color: transparent transparent #34495e transparent;
@@ -693,7 +694,7 @@ h6 {
 .dk_options {
   padding-top: 14px; }
   .dk_options:before {
-    content: "";
+    content: '';
     border-style: solid;
     border-width: 0 9px 9px 9px;
     border-color: transparent transparent #34495e transparent;
@@ -1169,7 +1170,7 @@ textarea,
   -webkit-backface-visibility: hidden; }
   .toggle:before, .toggle:after {
     display: table;
-    content: ""; }
+    content: ''; }
   .toggle:after {
     clear: both; }
   .toggle.toggle-off {
@@ -1537,7 +1538,7 @@ textarea,
   border-radius: 6px;
   position: relative; }
   .share:before {
-    content: "";
+    content: '';
     border-style: solid;
     border-width: 0 9px 9px 9px;
     border-color: transparent transparent #ecf0f5 transparent;
@@ -1556,7 +1557,7 @@ textarea,
     *zoom: 1; }
     .share li:before, .share li:after {
       display: table;
-      content: ""; }
+      content: ''; }
     .share li:after {
       clear: both; }
     .share li:first-child {
