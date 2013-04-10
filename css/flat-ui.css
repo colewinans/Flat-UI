@@ -1734,7 +1734,7 @@ textarea,
   .tile.tile-hot:before {
     background: url("../images/tile/ribbon.png") 0 0 no-repeat;
     background-size: 82px 82px;
-    content: "";
+    content: '';
     height: 82px;
     position: absolute;
     right: -4px;
